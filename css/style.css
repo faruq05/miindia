@@ -20,6 +20,7 @@ p {
 
 /* global starts */
 :root {
+    --cs-titlered:#ed3832;
     --cs-red: #ce0100;
     --cs-primary: #299dee;
     --cs-white: #fff;
@@ -288,7 +289,7 @@ h6 {
 .blogone_ads a img{
     margin-bottom: 10px;
     border-radius: 10px;
-    width: 50%;
+    width: 43%;
 }
 
 .owl-carousel .owl-item img {
@@ -312,3 +313,51 @@ h6 {
 /* blogsection 1 ends */
 
 /* blogsection 2 starts */
+.blogtwo .container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+}
+
+.links{
+    background-color: var(--cs-white);
+    border: 1px solid #00000029;
+}
+
+.links_title{
+    color: var(--cs-white);
+    background-color: var(--cs-titlered);
+    padding: 8px 12px;
+    margin: 0;
+}
+
+.ltstyle2{
+    background-color: var(--cs-primary);
+}
+
+.links_title i{
+    padding-right: 7px;
+}
+
+.qlinks{
+    padding: 10px;
+}
+
+.qlinks li{list-style: none;}
+
+.qlinks li span{
+    color: var(--cs-titlered);
+}
+
+.qlinks li a{
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 5px;
+}
+
+.qlinks li a i{
+    margin-right: 7px;
+    font-size: 10px;
+}
+
+.qlinks li a i p{}
