@@ -668,7 +668,9 @@ li {
 /* blogsections5 ends */
 
 /* footer starts */
-.footer{}
+.footer{
+    padding: 30px 0px 0px 0px;
+}
 
 .footerone{}
 
